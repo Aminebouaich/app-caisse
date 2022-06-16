@@ -14,29 +14,40 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
     </script>
-    <div class="container">
+    <div class="container c1">
         <div class="row">
             <div class="col-lg-4"></div>
             <div class="col-lg-4">
-                <h1 class=".title">ACHETOR 2000</h1>
+                <h1 class=".title">CAISSE</h1>
+            </div>
+            <div class="col-lg-4"></div>s
+        </div>
+    </div>
+
+    <div class="container c2">
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <form>
+                    <label for="number">total</label>
+                    <input type="number" id="total" name="fname" value=""><br><br>
+                    <label for="number">paiement</label>
+                    <input type="number" id="paiement" name="lname" value=""><br><br>
+                    <!-- <label for="number">rendu</label> -->
+                    <!-- <input type="number" id="lname" name="rendu" value="0" disabled><br><br> -->
+                    <input id='submit' type="button" value="Submit">
+                </form>
+
+                <p id="rendu">Votre monnaie est de </p>
+
+                <p id="billets10"></p>
+                <p id="billets5"></p>
+                <p id="pieces"></p>
             </div>
             <div class="col-lg-4"></div>
         </div>
     </div>
-    <form>
-        <label for="number">total</label>
-        <input type="number" id="total" name="fname" value=""><br><br>
-        <label for="number">paiement</label>
-        <input type="number" id="paiement" name="lname" value=""><br><br>
-        <!-- <label for="number">rendu</label> -->
-        <!-- <input type="number" id="lname" name="rendu" value="0" disabled><br><br> -->
-        <input id='submit' type="button" value="Submit">
-    </form>
-    <p id="rendu">Votre monnaie est de </p>
 
-    <p id="billets10"></p>
-    <p id="billets5"></p>
-    <p id="pieces"></p>
     <script src="app.js"></script>
 </body>
 
